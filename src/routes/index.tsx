@@ -312,6 +312,7 @@ function Portfolio() {
           <div>
             <p className="text-xs font-mono text-muted-foreground uppercase tracking-wider">Education</p>
             <p className="mt-1 font-semibold">Bachelor's Degree in Computer Science</p>
+            <p className="mt-1 text-sm text-muted-foreground">University of Engineering & Technology (UET), Peshawar</p>
           </div>
         </div>
       </section>
