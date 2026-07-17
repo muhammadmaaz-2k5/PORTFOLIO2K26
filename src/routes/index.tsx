@@ -30,30 +30,37 @@ const experience = [
   {
     role: "Full-Stack Developer",
     company: "Spark Zone Technologies",
-    location: "Remote",
+    location: "Onsite",
     period: "2023 — 2025",
     points: [
-      "Developed scalable web applications using Node.js, Express.js, and TypeScript. Built RESTful APIs and server-side architecture for production applications.",
-      "Collaborated with cross-functional teams, implementing best practices for code quality, testing, and deployment.",
+      "Designed and developed scalable full-stack web applications using Node.js, Express.js, React.js, Next.js, TypeScript, PostgreSQL, and MySQL.",
+      "Built secure RESTful APIs, authentication systems, and backend services following clean architecture and industry best practices.",
+      "Optimized database queries, integrated third-party APIs, and improved application performance and scalability.",
+      "Collaborated with cross-functional teams using Git-based workflows, code reviews, testing, and CI/CD deployment practices.",
+    ],
+  },
+  {
+    role: "Full-Stack Developer (Freelance)",
+    company: "Self-Employed",
+    location: "Remote",
+    period: "2022 — Present",
+    points: [
+      "Delivered 15+ full-stack applications, SaaS platforms, admin dashboards, and business solutions using Node.js, Next.js, React.js, TypeScript, Laravel, MongoDB, PostgreSQL, and MySQL.",
+      "Developed scalable backend architectures, REST & GraphQL APIs, authentication systems, payment integrations, and cloud-based deployments.",
+      "Built AI-powered applications by integrating OpenAI, LangChain, Gemini, and real-time communication technologies including WebRTC.",
+      "Managed complete software development lifecycles, from client requirements and system design to deployment and ongoing maintenance.",
     ],
   },
   {
     role: "Full-Stack Developer",
-    company: "Freelance",
-    location: "Remote",
-    period: "2022 — Present",
-    points: [
-      "Developed end-to-end web applications using React, TypeScript, and Laravel with RESTful APIs. Created cross-platform mobile apps using Flutter with real-time features.",
-      "Designed scalable backend systems using Laravel and Node.js, managing MySQL/PostgreSQL databases. Delivered 15+ projects including e-commerce platforms and streaming services.",
-    ],
-  },
-  {
-    role: "Mobile App Developer",
     company: "Independent Projects",
     location: "Remote",
     period: "2021 — Present",
     points: [
-      "Specialized in Flutter development, creating reusable packages and publishing multiple apps on Google Play Store with authentication and real-time updates.",
+      "Built production-ready full-stack applications focused on modern web technologies, scalable backend systems, and AI-driven solutions.",
+      "Developed projects including an AI Interview Platform, AI Thumbnail Builder, Sports Real-Time Management System, and GraphQL E-Commerce Platform.",
+      "Designed secure authentication systems, real-time features, database architectures, and responsive user interfaces using modern JavaScript frameworks.",
+      "Continuously explored emerging technologies including AI Agents, LLM integrations, RAG, WebRTC, Docker, and cloud deployment to build modern, scalable software.",
     ],
   },
 ];
@@ -63,7 +70,15 @@ const projects = [
     name: "AI Interview Platform",
     description:
       "AI-powered mock interview app with live voice conversations, real-time transcription, and GitHub-aware personalized questions. Auto-scores interviews and generates feedback using the Gemini API.",
-    stack: ["React", "TypeScript", "Express.js", "PostgreSQL", "Sequelize", "OpenAI Realtime", "Deepgram", "Gemini"],
+    stack: ["React", "TypeScript", "Express.js", "PostgreSQL", "Sequelize", "OpenAI Realtime API", "Deepgram", "Google Gemini"],
+    github: GITHUB,
+    link: null,
+  },
+  {
+    name: "Sports Real-Time Management System",
+    description:
+      "Real-time sports event discovery platform to find, create, and join local sports events on an interactive map, with messaging, reviews, and role-based access.",
+    stack: ["React", "Vite", "Tailwind CSS", "Express", "WebSockets", "PostgreSQL", "Drizzle ORM", "Clerk"],
     github: GITHUB,
     link: null,
   },
@@ -74,14 +89,6 @@ const projects = [
     stack: ["Next.js", "TypeScript", "CSS"],
     github: GITHUB,
     link: null,
-  },
-  {
-    name: "Medzfitt E-commerce",
-    description:
-      "Full-featured Laravel e-commerce site with cart, orders, reviews, and an admin dashboard.",
-    stack: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "JavaScript"],
-    github: GITHUB,
-    link: "#",
   },
   {
     name: "E.shop — GraphQL E-commerce API",
@@ -102,7 +109,7 @@ const skills: { icon: typeof Code2; title: string; items: string[] }[] = [
   {
     icon: Server,
     title: "Backend",
-    items: ["Node.js", "Express.js", "Laravel", "PHP", "GraphQL", "REST API"],
+    items: ["Node.js", "Express.js", "Laravel", "PHP", "JavaScript", "GraphQL", "REST API"],
   },
   {
     icon: Smartphone,
@@ -117,7 +124,7 @@ const skills: { icon: typeof Code2; title: string; items: string[] }[] = [
   {
     icon: Wrench,
     title: "DevOps & Tools",
-    items: ["Git", "GitHub", "Docker", "Firebase", "AdMob", "Puppeteer"],
+    items: ["Git", "GitHub", "Docker", "Firebase", "AdMob", "Puppeteer", "REST API"],
   },
 ];
 
@@ -160,10 +167,11 @@ function Portfolio() {
             <span className="text-gradient">Full-Stack Developer</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            I build scalable web applications and mobile experiences — specializing in{" "}
-            <span className="text-foreground">Node.js</span>, RESTful & GraphQL APIs,
-            and end-to-end products with{" "}
-            <span className="text-foreground">React, Laravel, and Flutter</span>.
+            Full-stack developer specializing in{" "}
+            <span className="text-foreground">Node.js</span> backend development and
+            scalable web applications — building RESTful APIs, server-side architecture,
+            and end-to-end solutions with{" "}
+            <span className="text-foreground">modern JavaScript frameworks</span>.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
