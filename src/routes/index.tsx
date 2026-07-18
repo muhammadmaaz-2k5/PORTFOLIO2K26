@@ -79,8 +79,8 @@ const projects = [
     description:
       "Real-time sports event discovery platform to find, create, and join local sports events on an interactive map, with messaging, reviews, and role-based access.",
     stack: ["React", "Vite", "Tailwind CSS", "Express", "WebSockets", "PostgreSQL", "Drizzle ORM", "Clerk"],
-    github: GITHUB,
-    link: null,
+    github: "https://github.com/muhammadmaaz-2k5/Sports-Hosting-Management",
+    link: "https://shm-system-seven.vercel.app/",
   },
   {
     name: "AI Thumbnail Builder",
