@@ -78,16 +78,36 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Muhammad Maaz — Full-Stack Developer" },
-      { name: "description", content: "Full-stack developer specializing in Node.js, React, Laravel, and Flutter. Building scalable web and mobile applications." },
+      {
+        name: "description",
+        content:
+          "Full-stack developer specializing in Node.js, React, Laravel, and Flutter. Building scalable web and mobile applications.",
+      },
       { name: "author", content: "Muhammad Maaz" },
       { property: "og:title", content: "Muhammad Maaz — Full-Stack Developer" },
-      { property: "og:description", content: "Full-stack developer specializing in Node.js, React, Laravel, and Flutter. Building scalable web and mobile applications." },
+      {
+        property: "og:description",
+        content:
+          "Full-stack developer specializing in Node.js, React, Laravel, and Flutter. Building scalable web and mobile applications.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Muhammad Maaz — Full-Stack Developer" },
-      { name: "twitter:description", content: "Full-stack developer specializing in Node.js, React, Laravel, and Flutter. Building scalable web and mobile applications." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5476ebe0-438b-4348-877d-7f0a42a18563/id-preview-3ff4225f--b4ffa449-4cd0-449a-b130-153bf7adbef4.lovable.app-1783850549024.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5476ebe0-438b-4348-877d-7f0a42a18563/id-preview-3ff4225f--b4ffa449-4cd0-449a-b130-153bf7adbef4.lovable.app-1783850549024.png" },
+      {
+        name: "twitter:description",
+        content:
+          "Full-stack developer specializing in Node.js, React, Laravel, and Flutter. Building scalable web and mobile applications.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5476ebe0-438b-4348-877d-7f0a42a18563/id-preview-3ff4225f--b4ffa449-4cd0-449a-b130-153bf7adbef4.lovable.app-1783850549024.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5476ebe0-438b-4348-877d-7f0a42a18563/id-preview-3ff4225f--b4ffa449-4cd0-449a-b130-153bf7adbef4.lovable.app-1783850549024.png",
+      },
     ],
     links: [
       {
@@ -97,7 +117,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.png", type: "image/png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,

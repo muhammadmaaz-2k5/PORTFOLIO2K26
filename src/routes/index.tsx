@@ -14,7 +14,7 @@ import {
 function Github({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
-      <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.71 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.83 0c2.22-1.49 3.2-1.18 3.2-1.18.64 1.59.24 2.77.12 3.06.74.81 1.19 1.84 1.19 3.1 0 4.44-2.7 5.42-5.27 5.7.41.36.78 1.05.78 2.12v3.15c0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/>
+      <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.71 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.83 0c2.22-1.49 3.2-1.18 3.2-1.18.64 1.59.24 2.77.12 3.06.74.81 1.19 1.84 1.19 3.1 0 4.44-2.7 5.42-5.27 5.7.41.36.78 1.05.78 2.12v3.15c0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z" />
     </svg>
   );
 }
@@ -28,39 +28,35 @@ const GITHUB = "https://github.com/muhammadmaaz-2k5";
 
 const experience = [
   {
-    role: "Full-Stack Developer",
-    company: "Spark Zone Technologies",
-    location: "Onsite",
-    period: "2023 — 2025",
-    points: [
-      "Designed and developed scalable full-stack web applications using Node.js, Express.js, React.js, Next.js, TypeScript, PostgreSQL, and MySQL.",
-      "Built secure RESTful APIs, authentication systems, and backend services following clean architecture and industry best practices.",
-      "Optimized database queries, integrated third-party APIs, and improved application performance and scalability.",
-      "Collaborated with cross-functional teams using Git-based workflows, code reviews, testing, and CI/CD deployment practices.",
-    ],
-  },
-  {
-    role: "Full-Stack Developer (Freelance)",
-    company: "Self-Employed",
+    role: "Full Stack Engineer",
+    company: "Freelance",
     location: "Remote",
     period: "2022 — Present",
     points: [
-      "Delivered 15+ full-stack applications, SaaS platforms, admin dashboards, and business solutions using Node.js, Next.js, React.js, TypeScript, Laravel, MongoDB, PostgreSQL, and MySQL.",
-      "Developed scalable backend architectures, REST & GraphQL APIs, authentication systems, payment integrations, and cloud-based deployments.",
-      "Built AI-powered applications by integrating OpenAI, LangChain, Gemini, and real-time communication technologies including WebRTC.",
-      "Managed complete software development lifecycles, from client requirements and system design to deployment and ongoing maintenance.",
+      "Developed end-to-end web applications using React, TypeScript, and Laravel with RESTful APIs.",
+      "Created cross-platform mobile apps using Flutter with real-time features.",
+      "Designed scalable backend systems using Laravel and Node.js, managing MySQL/PostgreSQL databases.",
+      "Delivered 15+ projects including e-commerce platforms and streaming services.",
     ],
   },
   {
-    role: "Full-Stack Developer",
+    role: "MERN/Full Stack Developer",
+    company: "Spark Zone Technologies",
+    location: "Peshawar, Pakistan · On-site",
+    period: "Jan 2025 — Oct 2025",
+    points: [
+      "Developed scalable web applications using Node.js and Express.js, building RESTful APIs and server-side architecture for production applications.",
+      "Collaborated with cross-functional teams, implementing best practices for code quality, testing, and deployment.",
+    ],
+  },
+  {
+    role: "MERN Stack Developer",
     company: "Independent Projects",
     location: "Remote",
-    period: "2021 — Present",
+    period: "Jul 2021 — Jul 2022",
     points: [
-      "Built production-ready full-stack applications focused on modern web technologies, scalable backend systems, and AI-driven solutions.",
-      "Developed projects including an AI Interview Platform, AI Thumbnail Builder, Sports Real-Time Management System, and GraphQL E-Commerce Platform.",
-      "Designed secure authentication systems, real-time features, database architectures, and responsive user interfaces using modern JavaScript frameworks.",
-      "Continuously explored emerging technologies including AI Agents, LLM integrations, RAG, WebRTC, Docker, and cloud deployment to build modern, scalable software.",
+      "Designed and developed custom web applications using Node.js, Express.js, React.js, Next.js, TypeScript, MongoDB, and MySQL.",
+      "Built scalable RESTful APIs, admin dashboards, SaaS platforms, and business solutions for clients, managing projects from requirements gathering to deployment.",
     ],
   },
 ];
@@ -70,7 +66,16 @@ const projects = [
     name: "AI Interview Platform",
     description:
       "AI-powered mock interview app with live voice conversations, real-time transcription, and GitHub-aware personalized questions. Auto-scores interviews and generates feedback using the Gemini API.",
-    stack: ["React", "TypeScript", "Express.js", "PostgreSQL", "Sequelize", "OpenAI Realtime API", "Deepgram", "Google Gemini"],
+    stack: [
+      "React",
+      "TypeScript",
+      "Express.js",
+      "PostgreSQL",
+      "Sequelize",
+      "OpenAI Realtime API",
+      "Deepgram",
+      "Google Gemini",
+    ],
     github: GITHUB,
     link: null,
   },
@@ -78,7 +83,16 @@ const projects = [
     name: "Sports Real-Time Management System",
     description:
       "Real-time sports event discovery platform to find, create, and join local sports events on an interactive map, with messaging, reviews, and role-based access.",
-    stack: ["React", "Vite", "Tailwind CSS", "Express", "WebSockets", "PostgreSQL", "Drizzle ORM", "Clerk"],
+    stack: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Express",
+      "WebSockets",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Clerk",
+    ],
     github: "https://github.com/muhammadmaaz-2k5/Sports-Hosting-Management",
     link: "https://shm-system-seven.vercel.app/",
   },
@@ -94,7 +108,15 @@ const projects = [
     name: "E.shop — GraphQL E-commerce API",
     description:
       "Production-grade GraphQL API for e-commerce with typed schema, caching, and relational data modeling.",
-    stack: ["TypeScript", "Express.js", "Apollo Server", "Type-GraphQL", "Sequelize", "PostgreSQL", "Redis"],
+    stack: [
+      "TypeScript",
+      "Express.js",
+      "Apollo Server",
+      "Type-GraphQL",
+      "Sequelize",
+      "PostgreSQL",
+      "Redis",
+    ],
     github: GITHUB,
     link: null,
   },
@@ -135,14 +157,26 @@ function Portfolio() {
       <header className="sticky top-0 z-40 backdrop-blur-xl bg-background/70 border-b border-border/50">
         <nav className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-2 font-semibold tracking-tight">
-            <span className="grid place-items-center w-8 h-8 rounded-md bg-primary text-primary-foreground font-bold">M</span>
-            <span>Maaz<span className="text-primary">.</span></span>
+            <span className="grid place-items-center w-8 h-8 rounded-md bg-primary text-primary-foreground font-bold">
+              M
+            </span>
+            <span>
+              Maaz<span className="text-primary">.</span>
+            </span>
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
-            <a href="#experience" className="hover:text-foreground transition">Experience</a>
-            <a href="#projects" className="hover:text-foreground transition">Projects</a>
-            <a href="#skills" className="hover:text-foreground transition">Skills</a>
-            <a href="#contact" className="hover:text-foreground transition">Contact</a>
+            <a href="#experience" className="hover:text-foreground transition">
+              Experience
+            </a>
+            <a href="#projects" className="hover:text-foreground transition">
+              Projects
+            </a>
+            <a href="#skills" className="hover:text-foreground transition">
+              Skills
+            </a>
+            <a href="#contact" className="hover:text-foreground transition">
+              Contact
+            </a>
           </div>
           <a
             href={`mailto:${EMAIL}`}
@@ -167,10 +201,9 @@ function Portfolio() {
             <span className="text-gradient">Full-Stack Developer</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Full-stack developer specializing in{" "}
-            <span className="text-foreground">Node.js</span> backend development and
-            scalable web applications — building RESTful APIs, server-side architecture,
-            and end-to-end solutions with{" "}
+            Full-stack developer specializing in <span className="text-foreground">Node.js</span>{" "}
+            backend development and scalable web applications — building RESTful APIs, server-side
+            architecture, and end-to-end solutions with{" "}
             <span className="text-foreground">modern JavaScript frameworks</span>.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -225,7 +258,8 @@ function Portfolio() {
                 <div>
                   <h3 className="text-xl font-semibold">{e.role}</h3>
                   <p className="text-primary font-medium">
-                    {e.company} <span className="text-muted-foreground font-normal">· {e.location}</span>
+                    {e.company}{" "}
+                    <span className="text-muted-foreground font-normal">· {e.location}</span>
                   </p>
                 </div>
                 <span className="font-mono text-xs text-muted-foreground bg-surface-2 px-3 py-1 rounded-full border border-border">
@@ -260,11 +294,23 @@ function Portfolio() {
                 </h3>
                 <div className="flex gap-2 opacity-70 group-hover:opacity-100 transition">
                   {p.link && (
-                    <a href={p.link} target="_blank" rel="noreferrer" aria-label="Live link" className="p-1.5 rounded-md hover:bg-surface-2">
+                    <a
+                      href={p.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Live link"
+                      className="p-1.5 rounded-md hover:bg-surface-2"
+                    >
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   )}
-                  <a href={p.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="p-1.5 rounded-md hover:bg-surface-2">
+                  <a
+                    href={p.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="GitHub"
+                    className="p-1.5 rounded-md hover:bg-surface-2"
+                  >
                     <Github className="w-4 h-4" />
                   </a>
                 </div>
@@ -290,7 +336,10 @@ function Portfolio() {
         <SectionHeader eyebrow="03 / Toolbox" title="Technical Skills" />
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {skills.map((s) => (
-            <div key={s.title} className="rounded-xl border border-border bg-surface p-6 shadow-card">
+            <div
+              key={s.title}
+              className="rounded-xl border border-border bg-surface p-6 shadow-card"
+            >
               <div className="flex items-center gap-3">
                 <div className="grid place-items-center w-10 h-10 rounded-lg bg-primary/10 text-primary">
                   <s.icon className="w-5 h-5" />
@@ -299,7 +348,10 @@ function Portfolio() {
               </div>
               <div className="mt-4 flex flex-wrap gap-1.5">
                 {s.items.map((i) => (
-                  <span key={i} className="text-xs bg-surface-2 border border-border rounded-md px-2 py-1 text-muted-foreground">
+                  <span
+                    key={i}
+                    className="text-xs bg-surface-2 border border-border rounded-md px-2 py-1 text-muted-foreground"
+                  >
                     {i}
                   </span>
                 ))}
@@ -310,9 +362,13 @@ function Portfolio() {
 
         <div className="mt-8 rounded-xl border border-border bg-surface p-6 flex flex-wrap items-center justify-between gap-4">
           <div>
-            <p className="text-xs font-mono text-muted-foreground uppercase tracking-wider">Education</p>
+            <p className="text-xs font-mono text-muted-foreground uppercase tracking-wider">
+              Education
+            </p>
             <p className="mt-1 font-semibold">Bachelor's Degree in Computer Science</p>
-            <p className="mt-1 text-sm text-muted-foreground">University of Engineering & Technology (UET), Peshawar</p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              University of Engineering & Technology (UET), Peshawar
+            </p>
           </div>
         </div>
       </section>
@@ -321,13 +377,15 @@ function Portfolio() {
       <section id="contact" className="relative overflow-hidden">
         <div className="absolute inset-0 bg-hero-glow opacity-70 pointer-events-none" />
         <div className="relative mx-auto max-w-4xl px-6 py-28 text-center">
-          <p className="font-mono text-xs uppercase tracking-widest text-primary">04 / Get in touch</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-primary">
+            04 / Get in touch
+          </p>
           <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight">
             Let's build something <span className="text-gradient">great</span>.
           </h2>
           <p className="mt-5 max-w-xl mx-auto text-muted-foreground leading-relaxed">
-            Have a project in mind or just want to connect? I'm always open to
-            discussing new opportunities and collaborations.
+            Have a project in mind or just want to connect? I'm always open to discussing new
+            opportunities and collaborations.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
